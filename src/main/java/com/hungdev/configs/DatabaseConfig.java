@@ -29,7 +29,7 @@ public class DatabaseConfig {
 		config.setDriverClassName(env.getProperty("spring.datasource.driver-class-name"));
 		config.setJdbcUrl(env.getProperty("spring.datasource.url"));
 		config.setUsername(env.getProperty("spring.datasource.username"));
-		config.setPassword(env.getProperty("spring.datasource.password"));
+		config.setPassword(env.getProperty("spring.datasource.password")	);
 
 		config.setMaximumPoolSize(10);
 		config.setMinimumIdle(2);
